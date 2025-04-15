@@ -42,7 +42,6 @@ jobs:
       - name: Compile binary
         run: go build -o myapp
   build:
-    needs: compile
     # Specify the OS for the runner
     runs-on: ubuntu-latest
 

@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/eduarddinuta/go-simple-webserver@sha256:e8c9fc6c7270f95b8ea3e1435330cfa25ea8af083bab3bddc8bbfd1d9349e1bf
+          image: ghcr.io/eduarddinuta/ci_cd_lab@sha256:e8c9fc6c7270f95b8ea3e1435330cfa25ea8af083bab3bddc8bbfd1d9349e1bf
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
